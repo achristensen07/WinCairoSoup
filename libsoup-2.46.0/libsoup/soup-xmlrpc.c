@@ -26,6 +26,10 @@ static xmlNode *find_real_node (xmlNode *node);
 
 static gboolean insert_value (xmlNode *parent, GValue *value);
 
+#if defined(_MSC_VER)
+#define snprintf _snprintf
+#endif
+
 static gboolean
 insert_value (xmlNode *parent, GValue *value)
 {

@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libsoup\soup-address.c" />
+    <ClCompile Include="libsoup\soup-auth-basic.c" />
+    <ClCompile Include="libsoup\soup-auth-digest.c" />
+    <ClCompile Include="libsoup\soup-auth-domain-basic.c" />
+    <ClCompile Include="libsoup\soup-auth-domain-digest.c" />
+    <ClCompile Include="libsoup\soup-auth-domain.c" />
+    <ClCompile Include="libsoup\soup-auth-manager.c" />
+    <ClCompile Include="libsoup\soup-auth-ntlm.c" />
+    <ClCompile Include="libsoup\soup-auth.c" />
+    <ClCompile Include="libsoup\soup-body-input-stream.c" />
+    <ClCompile Include="libsoup\soup-body-output-stream.c" />
+    <ClCompile Include="libsoup\soup-cache-input-stream.c" />
+    <ClCompile Include="libsoup\soup-cache.c" />
+    <ClCompile Include="libsoup\soup-client-input-stream.c" />
+    <ClCompile Include="libsoup\soup-connection-auth.c" />
+    <ClCompile Include="libsoup\soup-connection.c" />
+    <ClCompile Include="libsoup\soup-content-decoder.c" />
+    <ClCompile Include="libsoup\soup-content-processor.c" />
+    <ClCompile Include="libsoup\soup-content-sniffer-stream.c" />
+    <ClCompile Include="libsoup\soup-content-sniffer.c" />
+    <ClCompile Include="libsoup\soup-converter-wrapper.c" />
+    <ClCompile Include="libsoup\soup-cookie-jar-db.c" />
+    <ClCompile Include="libsoup\soup-cookie-jar-sqlite.c" />
+    <ClCompile Include="libsoup\soup-cookie-jar-text.c" />
+    <ClCompile Include="libsoup\soup-cookie-jar.c" />
+    <ClCompile Include="libsoup\soup-cookie.c" />
+    <ClCompile Include="libsoup\soup-date.c" />
+    <ClCompile Include="libsoup\soup-directory-input-stream.c" />
+    <ClCompile Include="libsoup\soup-enum-types.c" />
+    <ClCompile Include="libsoup\soup-filter-input-stream.c" />
+    <ClCompile Include="libsoup\soup-form.c" />
+    <ClCompile Include="libsoup\soup-gnome-features.c" />
+    <ClCompile Include="libsoup\soup-headers.c" />
+    <ClCompile Include="libsoup\soup-io-stream.c" />
+    <ClCompile Include="libsoup\soup-logger.c" />
+    <ClCompile Include="libsoup\soup-message-body.c" />
+    <ClCompile Include="libsoup\soup-message-client-io.c" />
+    <ClCompile Include="libsoup\soup-message-headers.c" />
+    <ClCompile Include="libsoup\soup-message-io.c" />
+    <ClCompile Include="libsoup\soup-message-queue.c" />
+    <ClCompile Include="libsoup\soup-message-server-io.c" />
+    <ClCompile Include="libsoup\soup-message.c" />
+    <ClCompile Include="libsoup\soup-method.c" />
+    <ClCompile Include="libsoup\soup-misc.c" />
+    <ClCompile Include="libsoup\soup-multipart-input-stream.c" />
+    <ClCompile Include="libsoup\soup-multipart.c" />
+    <ClCompile Include="libsoup\soup-password-manager-gnome.c" />
+    <ClCompile Include="libsoup\soup-password-manager.c" />
+    <ClCompile Include="libsoup\soup-path-map.c" />
+    <ClCompile Include="libsoup\soup-proxy-resolver-default.c" />
+    <ClCompile Include="libsoup\soup-proxy-resolver-gnome.c" />
+    <ClCompile Include="libsoup\soup-proxy-resolver-wrapper.c" />
+    <ClCompile Include="libsoup\soup-proxy-resolver.c" />
+    <ClCompile Include="libsoup\soup-proxy-uri-resolver.c" />
+    <ClCompile Include="libsoup\soup-request-data.c" />
+    <ClCompile Include="libsoup\soup-request-file.c" />
+    <ClCompile Include="libsoup\soup-request-http.c" />
+    <ClCompile Include="libsoup\soup-request.c" />
+    <ClCompile Include="libsoup\soup-requester.c" />
+    <ClCompile Include="libsoup\soup-server.c" />
+    <ClCompile Include="libsoup\soup-session-async.c" />
+    <ClCompile Include="libsoup\soup-session-feature.c" />
+    <ClCompile Include="libsoup\soup-session-sync.c" />
+    <ClCompile Include="libsoup\soup-session.c" />
+    <ClCompile Include="libsoup\soup-socket.c" />
+    <ClCompile Include="libsoup\soup-status.c" />
+    <ClCompile Include="libsoup\soup-tld.c" />
+    <ClCompile Include="libsoup\soup-uri.c" />
+    <ClCompile Include="libsoup\soup-value-utils.c" />
+    <ClCompile Include="libsoup\soup-version.c" />
+    <ClCompile Include="libsoup\soup-xmlrpc.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h" />
+    <ClInclude Include="libsoup\soup-address.h" />
+    <ClInclude Include="libsoup\soup-auth-basic.h" />
+    <ClInclude Include="libsoup\soup-auth-digest.h" />
+    <ClInclude Include="libsoup\soup-auth-domain-basic.h" />
+    <ClInclude Include="libsoup\soup-auth-domain-digest.h" />
+    <ClInclude Include="libsoup\soup-auth-domain.h" />
+    <ClInclude Include="libsoup\soup-auth-manager.h" />
+    <ClInclude Include="libsoup\soup-auth-ntlm.h" />
+    <ClInclude Include="libsoup\soup-auth.h" />
+    <ClInclude Include="libsoup\soup-body-input-stream.h" />
+    <ClInclude Include="libsoup\soup-body-output-stream.h" />
+    <ClInclude Include="libsoup\soup-cache-input-stream.h" />
+    <ClInclude Include="libsoup\soup-cache-private.h" />
+    <ClInclude Include="libsoup\soup-cache.h" />
+    <ClInclude Include="libsoup\soup-client-input-stream.h" />
+    <ClInclude Include="libsoup\soup-connection-auth.h" />
+    <ClInclude Include="libsoup\soup-connection.h" />
+    <ClInclude Include="libsoup\soup-content-decoder.h" />
+    <ClInclude Include="libsoup\soup-content-processor.h" />
+    <ClInclude Include="libsoup\soup-content-sniffer-stream.h" />
+    <ClInclude Include="libsoup\soup-content-sniffer.h" />
+    <ClInclude Include="libsoup\soup-converter-wrapper.h" />
+    <ClInclude Include="libsoup\soup-cookie-jar-db.h" />
+    <ClInclude Include="libsoup\soup-cookie-jar-sqlite.h" />
+    <ClInclude Include="libsoup\soup-cookie-jar-text.h" />
+    <ClInclude Include="libsoup\soup-cookie-jar.h" />
+    <ClInclude Include="libsoup\soup-cookie.h" />
+    <ClInclude Include="libsoup\soup-date.h" />
+    <ClInclude Include="libsoup\soup-directory-input-stream.h" />
+    <ClInclude Include="libsoup\soup-enum-types.h" />
+    <ClInclude Include="libsoup\soup-filter-input-stream.h" />
+    <ClInclude Include="libsoup\soup-form.h" />
+    <ClInclude Include="libsoup\soup-gnome-features.h" />
+    <ClInclude Include="libsoup\soup-gnome.h" />
+    <ClInclude Include="libsoup\soup-headers.h" />
+    <ClInclude Include="libsoup\soup-io-stream.h" />
+    <ClInclude Include="libsoup\soup-logger.h" />
+    <ClInclude Include="libsoup\soup-message-body.h" />
+    <ClInclude Include="libsoup\soup-message-headers.h" />
+    <ClInclude Include="libsoup\soup-message-private.h" />
+    <ClInclude Include="libsoup\soup-message-queue.h" />
+    <ClInclude Include="libsoup\soup-message.h" />
+    <ClInclude Include="libsoup\soup-method.h" />
+    <ClInclude Include="libsoup\soup-misc-private.h" />
+    <ClInclude Include="libsoup\soup-misc.h" />
+    <ClInclude Include="libsoup\soup-multipart-input-stream.h" />
+    <ClInclude Include="libsoup\soup-multipart.h" />
+    <ClInclude Include="libsoup\soup-password-manager-gnome.h" />
+    <ClInclude Include="libsoup\soup-password-manager.h" />
+    <ClInclude Include="libsoup\soup-path-map.h" />
+    <ClInclude Include="libsoup\soup-portability.h" />
+    <ClInclude Include="libsoup\soup-proxy-resolver-default.h" />
+    <ClInclude Include="libsoup\soup-proxy-resolver-gnome.h" />
+    <ClInclude Include="libsoup\soup-proxy-resolver-wrapper.h" />
+    <ClInclude Include="libsoup\soup-proxy-resolver.h" />
+    <ClInclude Include="libsoup\soup-proxy-uri-resolver.h" />
+    <ClInclude Include="libsoup\soup-request-data.h" />
+    <ClInclude Include="libsoup\soup-request-file.h" />
+    <ClInclude Include="libsoup\soup-request-http.h" />
+    <ClInclude Include="libsoup\soup-request.h" />
+    <ClInclude Include="libsoup\soup-requester.h" />
+    <ClInclude Include="libsoup\soup-server.h" />
+    <ClInclude Include="libsoup\soup-session-async.h" />
+    <ClInclude Include="libsoup\soup-session-feature.h" />
+    <ClInclude Include="libsoup\soup-session-private.h" />
+    <ClInclude Include="libsoup\soup-session-sync.h" />
+    <ClInclude Include="libsoup\soup-session.h" />
+    <ClInclude Include="libsoup\soup-socket.h" />
+    <ClInclude Include="libsoup\soup-status.h" />
+    <ClInclude Include="libsoup\soup-tld-private.h" />
+    <ClInclude Include="libsoup\soup-tld.h" />
+    <ClInclude Include="libsoup\soup-types.h" />
+    <ClInclude Include="libsoup\soup-uri.h" />
+    <ClInclude Include="libsoup\soup-value-utils.h" />
+    <ClInclude Include="libsoup\soup-version.h" />
+    <ClInclude Include="libsoup\soup-xmlrpc.h" />
+    <ClInclude Include="libsoup\soup.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D9376B58-246D-42F6-A109-EEEAAEFCD359}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libsoup</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)$(Configuration)\obj$(PlatformArchitecture)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)\bin$(PlatformArchitecture)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Configuration)\bin$(PlatformArchitecture)\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\obj$(PlatformArchitecture)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(SolutionDir)$(Configuration)\obj$(PlatformArchitecture)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)\bin$(PlatformArchitecture)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Configuration)\bin$(PlatformArchitecture)\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\obj$(PlatformArchitecture)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;HAVE_CONFIG_H;LOCALEDIR="";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\proxy-libintl-dev_20090911\include;$(ProjectDir)..\libsoup-2.46.0;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\libxml2-2.9.1\include;$(ProjectDir)..\sqlite-amalgamation-3080401;$(ProjectDir)..\libiconv-1.14\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>gio-2.0.lib;gobject-2.0.lib;glib-2.0.lib;libxml2.lib;libiconv.lib;intl.lib;sqlite.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;HAVE_CONFIG_H;LOCALEDIR="";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\proxy-libintl-dev_20090911\include;$(ProjectDir)..\libsoup-2.46.0;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\libxml2-2.9.1\include;$(ProjectDir)..\sqlite-amalgamation-3080401;$(ProjectDir)..\libiconv-1.14\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>gio-2.0.lib;gobject-2.0.lib;glib-2.0.lib;libxml2.lib;libiconv.lib;intl.lib;sqlite.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;HAVE_CONFIG_H;LOCALEDIR="";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\proxy-libintl-dev_20090911\include;$(ProjectDir)..\libsoup-2.46.0;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\libxml2-2.9.1\include;$(ProjectDir)..\sqlite-amalgamation-3080401;$(ProjectDir)..\libiconv-1.14\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>gio-2.0.lib;gobject-2.0.lib;glib-2.0.lib;libxml2.lib;libiconv.lib;intl.lib;sqlite.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;HAVE_CONFIG_H;LOCALEDIR="";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\proxy-libintl-dev_20090911\include;$(ProjectDir)..\libsoup-2.46.0;$(ProjectDir)..\glib-2.38.0;$(ProjectDir)..\glib-2.38.0\glib;$(ProjectDir)..\glib-2.38.0\gmodule;$(ProjectDir)..\libxml2-2.9.1\include;$(ProjectDir)..\sqlite-amalgamation-3080401;$(ProjectDir)..\libiconv-1.14\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>gio-2.0.lib;gobject-2.0.lib;glib-2.0.lib;libxml2.lib;libiconv.lib;intl.lib;sqlite.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\libffi-3.0.13\src\closures.c">
+      <Filter>ffi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\debug.c">
+      <Filter>ffi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\dlmalloc.c">
+      <Filter>ffi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\java_raw_api.c">
+      <Filter>ffi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\prep_cif.c">
+      <Filter>ffi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\raw_api.c">
+      <Filter>ffi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\types.c">
+      <Filter>ffi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\x86\ffi.c">
+      <Filter>ffi\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libffi-3.0.13\src\x86\ffi64.c">
+      <Filter>ffi\x86</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ffi">
+      <UniqueIdentifier>{058020c9-4401-442b-9a33-46f88c7b1859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffi\x86">
+      <UniqueIdentifier>{db96ac33-00f8-4f81-8389-ce439a03af84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="..\libffi-3.0.13\src\x86\win32.asm">
+      <Filter>ffi\x86</Filter>
+    </MASM>
+    <MASM Include="..\libffi-3.0.13\src\x86\win64.asm">
+      <Filter>ffi\x86</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
